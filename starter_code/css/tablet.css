@@ -1,0 +1,57 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+/*tablet screen*/	
+@media (min-width: 768px){
+	img {
+    	display: block; 
+    	max-width: 100%;
+    	height: auto;
+    }
+
+	#sidebar h3 {
+	  font-size: 20px;
+	  font-weight: 700;
+	  margin-bottom: 6px;
+	  color: #043049;
+	}
+
+	#sidebar ul {
+	  margin-bottom: 40px;
+	}
+	#sidebar ul li a {
+	  color: #043049;
+	  font-size: 14px;
+	}
+	#sidebar p {
+	  font-size: 14px;
+	  line-height: 1.1;
+	  margin-bottom: 40px;
+	}
+	#sidebar p a {
+	  color: #043049;
+	  font-weight: 300;
+	}
+}
+
+
+/*tablet landscape*/
+@media(min-width: 1024px){
+  
+	img {
+    	max-width: 100%;
+      	height: auto;
+    }
+
+	article {
+    	max-width: 600px;
+    	margin: auto
+    }
+
+    .container  {
+		width: 700px;
+		margin: 7px;
+	}
+}
+
